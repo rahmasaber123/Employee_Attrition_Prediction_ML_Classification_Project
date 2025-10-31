@@ -1,11 +1,4 @@
-# 🧑‍💼 Employee Attrition Prediction
-
-**Converted from:** `used_cars_Price_Predection.ipynb`  
-**Conversion Date:** 2025-10-31  
-**Author:** [Your Name]  
-
----
-
+#  Employee Attrition Prediction
 ## 📘 Project Overview
 
 This project aims to **predict employee attrition (whether an employee will leave or stay)** using various HR-related features such as job role, satisfaction level, income, and working environment.  
@@ -15,7 +8,7 @@ The project includes **data cleaning, exploratory data analysis (EDA), preproces
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 | Category | Libraries Used |
 |-----------|----------------|
@@ -41,7 +34,7 @@ The project includes **data cleaning, exploratory data analysis (EDA), preproces
 
 ---
 
-## 🧹 Data Cleaning
+##  Data Cleaning
 
 1. **Removed Irrelevant Columns:**
    - Dropped `EmployeeNumber`, `EmployeeCount`, `StandardHours`, `Over18`
@@ -56,7 +49,7 @@ The project includes **data cleaning, exploratory data analysis (EDA), preproces
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 ### 🔹 Correlation Heatmap
 Identified relationships between numerical variables to detect redundant or weakly correlated features.
@@ -81,7 +74,7 @@ Used histograms and boxplots to understand data spread and identify potential ou
 
 ---
 
-## ⚙️ Data Preprocessing
+##  Data Preprocessing
 
 1. **Target Encoding:**
    - Converted `Attrition` → `1` (Yes) and `0` (No)
@@ -96,14 +89,14 @@ Used histograms and boxplots to understand data spread and identify potential ou
 
 ---
 
-## ⚖️ Handling Class Imbalance
+##  Handling Class Imbalance
 
 Used **SMOTEENN** (combination of SMOTE + Edited Nearest Neighbors) to balance classes.  
 After resampling, the target ratio was approximately **55% (No) vs 45% (Yes)**.
 
 ---
 
-## 🤖 Model Building
+##  Model Building
 
 Trained multiple classification models:
 
@@ -119,7 +112,7 @@ Trained multiple classification models:
 
 ---
 
-## 📈 Model Evaluation (Baseline)
+##  Model Evaluation (Baseline)
 
 | Model | Accuracy | Precision | Recall | F1 Score |
 |--------|-----------|------------|---------|-----------|
@@ -132,7 +125,7 @@ Trained multiple classification models:
 
 ---
 
-## 🔍 Cross Validation & Hyperparameter Tuning
+##  Cross Validation & Hyperparameter Tuning
 
 **Cross-validation:**  
 Used 5-fold `KFold` with metrics:
